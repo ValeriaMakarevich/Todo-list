@@ -1,0 +1,9 @@
+body {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(#c5c5c5, #707070)
+}
+

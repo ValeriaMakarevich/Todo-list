@@ -1,0 +1,55 @@
+.container{
+     margin-left: auto;
+  margin-right: auto;
+    width: 40vw;
+}
+
+
+
+.input{
+    height: 60px;
+    font-size: 23px;
+    color: rgb(105, 105, 105);
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0px 3px 7px 0px rgba(80, 80, 80, 0.3); 
+    background-color: rgb(232, 232, 232);
+    font-style: italic;
+    width: 40vw;
+}
+
+.input:active, :hover, :focus{
+    outline: none;
+}
+
+.input::placeholder{
+    padding-left: 20px;
+    color: rgb(105, 105, 105);
+}
+
+
+
+
+.button{
+    position: relative;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+    bottom: 40px;
+    left: 230px;
+
+    
+}
+
+.chevron{
+width: 18px;
+height:18px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+        
