@@ -1,50 +1,69 @@
-.container{
-     margin-left: auto;
-  margin-right: auto;
-    width: 40vw;
+.input {
+  height: 60px;
+  font-size: 23px;
+  color: rgb(105, 105, 105);
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0px 3px 7px 0px rgba(80, 80, 80, 0.3);
+  background-color: rgb(232, 232, 232);
+  font-style: italic;
+  width: 40vw;
+}
+
+.input:active,
+:hover,
+:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  padding-left: 20px;
+  color: rgb(105, 105, 105);
+}
+
+.button {
+  position: relative;
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+  cursor: pointer;
+  bottom: 40px;
+  left: 20%;
+}
+
+.chevron {
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
 }
 
 
 
-.input{
-    height: 60px;
-    font-size: 23px;
-    color: rgb(105, 105, 105);
-    border: none;
-    border-radius: 1px;
-    box-shadow: 0px 3px 7px 0px rgba(80, 80, 80, 0.3); 
-    background-color: rgb(232, 232, 232);
-    font-style: italic;
-    width: 40vw;
+@media only screen and (max-width: 780px) {
+  .input {
+    font-size: 22px;
+    width: 60vw;
+  }
+
+  .button {
+    left: 25%;
+  }
 }
 
-.input:active, :hover, :focus{
-    outline: none;
-}
+@media only screen and (max-width: 600px) {
+  .input {
+    font-size: 18px;
+    height: 50px;
+    width: 60vw;
+  }
 
-.input::placeholder{
-    padding-left: 20px;
-    color: rgb(105, 105, 105);
-}
-
-
-
-
-.button{
-    position: relative;
-    border: none;
-    background-color: rgba(240, 248, 255, 0);
-    cursor: pointer;
-    bottom: 40px;
-    left: 230px;
-
-    
-}
-
-.chevron{
-width: 18px;
-height:18px;
-    margin-right: 20px;
+  .button {
+    left: 28%;
+    bottom: 35px;
+  }
+  .chevron {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 
