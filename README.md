@@ -1,18 +1,34 @@
-# The Todo list
-A personal diary for recording memories    
+# Todo List App
 
-## Objectives
-With this app, you can record important tasks for the day. You can sort them by criteria, such as all tasks, completed tasks, and uncompleted tasks. The app also shows the number of uncompleted tasks.  
+**A simple and intuitive personal task manager built with React**
 
-## Install
-```git clone https://github.com/ValeriaMakarevich/Todo-list 
+## 📌 Overview
+
+**Todo List** is a lightweight application for managing daily tasks. Add, complete, and organize your to-dos with ease. Stay on top of your responsibilities with clear filtering and a real-time count of pending items.
+
+## ✨ Features
+
+- ➕ **Add Tasks** — quickly create new to-dos  
+- ✅ **Mark as Complete** — check off finished items  
+- 🔄 **Filter by Status**:  
+  - All tasks  
+  - Completed  
+  - Incomplete  
+- 📊 **Pending Task Counter** — always know how many items remain  
+- 🎨 Clean, minimal interface  
+- ⚡ Powered by Create React App for fast development  
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/ValeriaMakarevich/Todo-list.git
 cd Todo-list
-npm install  
+npm install
 npm run start
- understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
